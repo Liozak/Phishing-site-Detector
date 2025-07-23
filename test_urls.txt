@@ -1,0 +1,6 @@
+https://example.com/login.php?user=admin
+http://secure-bank-update.com/verify
+https://google.com
+http://ph1shing-site.org/free-gift
+https://amazon.com/account
+

@@ -1,67 +1,20 @@
-# 🔐 Phishing Site Detector
+# 🛡️ Phishing Website Detector
 
-A Python-based phishing URL detection tool that uses multiple real-time APIs to determine if a website is legitimate or potentially malicious. The application includes a GUI built with Tkinter and uses VirusTotal, IPQualityScore, WHOISXML, and Google Safe Browsing APIs.
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue?style=for-the-badge)]()
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)]()
 
----
-
-## 🧠 Features
-
-- 🔍 Checks for HTTPS usage
-- 🔗 Detects redirects and shortened links
-- 🌐 Integrates with:
-  - ✅ VirusTotal API
-  - ✅ IPQualityScore API
-  - ✅ WHOISXML API
-  - ✅ Google Safe Browsing API
-- ⚠️ Identifies unsafe domains and URLs in real-time
-- 🧾 Displays detailed threat information
-- 🖥️ Simple GUI for easy use
-- 🛠️ Executable (`.exe`) file available with custom icon
+> A desktop-based phishing website detector that uses multiple APIs (Google Safe Browsing, VirusTotal, IPQualityScore, WHOISXML) to check URLs and flag malicious ones.
 
 ---
 
-## 📦 Requirements
+## 🚀 Features
+- Multi-layered phishing detection using real-time APIs
+- Redirect and HTTPS checks
+- GUI interface with `.exe` support
+- Whitelist feature to mark trusted sites
 
-- Python 3.9 or above
-- Modules:
-  - `requests`
-  - `tkinter`
-  - `validators`
-  - `colorama`
-
-Install all dependencies with:
-```bash
-pip install -r requirements.txt
-
-
-
-🚀 How to Run
-🧪 From Source (Python)
-bash
-Copy code
-python main.py
-🧊 From Executable
-Double-click the Phishing_Site_Detector.exe file (available in the dist/ folder).
-
-🧪 Example URLs to Test
-Type	Example URL
-✅ Legit	https://www.google.com
-✅ Legit	https://www.facebook.com
-❌ Phishing	http://secure-appleid.apple.com-signin.in
-❌ Phishing	http://bit.ly/2PhishLogin
-❌ Phishing	http://tinyurl.com/fakeaccountverify
-❌ Phishing	http://login-update-verification.com
-❌ Phishing	http://accounts-security-check-appleid.com
-
-🧰 Folder Structure
-graphql
-Copy code
-Phishing Site Detector/
-│
-├── main.py                # Main app logic
-├── gui.py                 # GUI code (merged if simplified)
-├── apis/                  # API logic files (optional if merged)
-├── icon.ico               # App icon
-├── dist/                  # Contains the generated .exe
-├── README.md              # Project description (this file)
-└── requirements.txt       # Python dependencies
+## 🛠️ Tech Stack
+- Python (Tkinter)
+- APIs: Google Safe Browsing, VirusTotal, IPQualityScore, WhoisXML
